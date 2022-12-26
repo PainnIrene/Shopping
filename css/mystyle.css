@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#666666;
+	background:url(../img/bg.jpg) repeat-x;
+}
+
+img{
+	border:none;
+}
+
+a{
+	color:#666;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#0066FF;
+}
+
+p{
+	margin-left:10px;
+}
+
+
+.frame{
+	margin:0 auto;
+	width:850px;
+}
+
+.top_banner{
+	background-color:#f7f9f8;
+	height:80px;
+	
+}
+
+.logo{
+	width:158px;
+	float:left;
+}
+
+.logo img{
+	margin-top: 20px;
+	margin-left:20px;
+}
+
+.top_banner .shoppingcart{
+	width:150px;
+	margin-top:10px;
+	margin-right:10px;
+	float:right;
+}
+
+.main_menu * a{
+	color:#FFFFFF;
+}
+
+.main_menu * a:hover{
+	color:black;
+}
+
+
+.main_menu .menuleft{
+	float:left;
+	background: url(../img/btn_left_part.jpg);
+	width:170px;
+	height: 38px;
+}
+.main_menu .menumid{
+	float:left;
+	background: url(../img/btn_mid_part.jpg);
+	width:170px;
+	height: 38px;
+}
+.main_menu .menuright{
+	float:left;
+	background: url(../img/btn_right_part.jpg);
+	width:170px;
+	height: 38px;
+}
+
+.menutext{
+	text-align:center;
+	margin-top:10px;
+	color:#FFFFFF;
+	font-size:13px;
+}
+
+.space{
+	height:20px;
+	margin-top:30px;
+}
+
+.space2{
+	margin-top:10px;
+}
+
+.space3{
+	margin-top:5px;
+}
+
+.main_body{
+	background-color:#efefef;
+}
+
+.menupanel{
+	margin-left:5px;
+	width:207px;
+	float:left;
+}
+
+.bodypanel{
+	margin-left:10px;
+	float:left;
+}
+
+.bodypanel .topbanner{
+	background:url(../img/main_banner.png);
+	width:602px;
+	height:182px;
+}
+
+.bodypanel .topbanner .btnorder{
+	float:left;
+	margin-left:100px;
+	margin-top:200px;
+}
+
+.submenu{
+	width:207px;
+}
+
+.menubg1{
+	background:url(../img/sub_menu1_body.png) repeat-y;
+}
+
+.menutitle{
+	margin-left:10px;
+	background-image:url(../img/menu_title_bg.png);
+	width:186px;
+	height:48px;
+}
+
+.menutitle .text{
+	margin-left:35px;
+}
+
+.menutitle .text .bullet{
+	float:left;
+	margin-top:13px;
+}
+
+.menutitle .text .text2{
+	margin-top:15px;
+	margin-left:5px;
+	float:left;
+	color:#000000;
+}
+
+.submenutext{
+	margin-left:50px;
+	margin-top:5px;
+}
+
+.submenutext .text{
+	margin-top:1px;
+	height:20px;
+	border-bottom:dotted 1px;
+	border-color:#999999;
+	width:110px;
+}
+
+.description .image{
+	text-align:center;
+	margin-top:5px;
+}
+
+.description .text{
+	margin-top:5px;
+	text-align:center;
+}
+
+.description .price{
+	margin-top:5px;
+	text-align:center;
+	color:#FF3300;
+	font:bold;
+}
+
+.submenutext .text .submenubullet {
+	font-size:10px;
+}
+
+.products{
+	background-color:#FFFFFF;
+}
+
+.item{
+	float:left;
+}
+
+.footer{
+	margin-top:10px;
+}
+
+.footer .paypal{
+	width:230px;
+	text-align:center;
+	float:left
+}
+
+.footer .rightpanel{
+	float:right;
+	margin-left:30px;
+}
+
+.copyright{
+	margin-top:5px;	
+	text-align:right;
+	font-size:10px;
+}
+
+.product_table{
+	margin-left:10px;
+}
+
+.polices_text{
+	width:595px;
+}
+
+.polices_text p{
+	margin-bottom:0px;
+}
+
+
+.textprice{
+	color:#FF3300;
+}
+
+.footer .rightpanel .menu a{
+	color:#999999;
+	text-decoration:none;
+}
+
+.footer .rightpanel .menu a:hover{
+	color:#0066FF;
+}
+
+.footer .menu{
+	text-align:right;
+}
+
+.contactinfo{
+	margin-left:10px;
+}
+
+h3{
+	margin-top:0px;
+	margin-left:10px;
+	font-size:12px;
+}
+
+form{
+	margin:0px 0px 0px 0px;
+}
+
+.logout{
+	text-align:right;
+	margin-right:20px;
+}
+
+.logout a{
+	text-decoration:underline;
+}
+
+.rightline{
+	border-right:1px solid #CCCCCC;
+}
+
+.pagenumber{
+	width:602px;
+	text-align:center;
+}
+
+.pagenumber a{
+	color:#666666;
+	text-decoration:underline;
+}
+
+.pagenumber a:hover{
+	color:#CC0000;
+}
+
+.productname a{
+	color:#666666;
+	text-decoration:underline;
+}
+
+.productname a:hover{
+	color:#CC0000;
+}
+
+.findform{
+	text-align:center;
+}
+
+.invoice{
+	text-decoration:none;
+}
+
+.invoiceleft{
+	float:left;
+	width:250px;
+}
+
+.invoiceright{
+	float:right;
+	width:250px;
+	margin-right:10px;
+}
+
+.invoicetext{
+	text-align:center;
+	background-color:#1e93c9;
+	color:#FFFFFF;
+	height:20px;
+	margin-right:10px;
+	padding-top:5px;
+}
